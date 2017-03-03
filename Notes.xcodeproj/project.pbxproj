@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		E9520B8E1E6937950013A32B /* Notes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Notes; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9520B911E6937950013A32B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E9520B991E6937EB0013A32B /* Plan.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = Plan.sketch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +44,7 @@
 			children = (
 				E9520B901E6937950013A32B /* Notes */,
 				E9520B8F1E6937950013A32B /* Products */,
+				E9520B981E6937C80013A32B /* Sketch */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +61,15 @@
 			children = (
 				E9520B911E6937950013A32B /* main.swift */,
 			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		E9520B981E6937C80013A32B /* Sketch */ = {
+			isa = PBXGroup;
+			children = (
+				E9520B991E6937EB0013A32B /* Plan.sketch */,
+			);
+			name = Sketch;
 			path = Notes;
 			sourceTree = "<group>";
 		};
