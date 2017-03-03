@@ -8,5 +8,18 @@
 
 import Foundation
 
-print("Hello, World!")
 
+
+func test(x: Int = 1, y: Int = 2) {
+    print(x, y)
+}
+
+test(x: 2)
+test(y: 3)
+test(x: 4,y: 5)
+
+class Demo: NSObject {
+    final func test(){
+    
+    }
+}
