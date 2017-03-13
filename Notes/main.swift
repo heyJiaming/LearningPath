@@ -10,16 +10,19 @@ import Foundation
 
 
 
-func test(x: Int = 1, y: Int = 2) {
-    print(x, y)
+func test1() {
+    print("test1")
 }
 
-test(x: 2)
-test(y: 3)
-test(x: 4,y: 5)
+var a = test1
 
-class Demo: NSObject {
-    final func test(){
-    
-    }
+func test2() {
+    print("test2")
 }
+
+var b = { () -> Int in
+    test1()
+    test2()
+    return 5
+}
+print(b())
